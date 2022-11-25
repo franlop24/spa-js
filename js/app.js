@@ -9,7 +9,7 @@ const loadData = e => {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    fetch('../pages/home.html')
+    fetch('./pages/home.html')
         .then(page => {
             return page.text(); 
         })
